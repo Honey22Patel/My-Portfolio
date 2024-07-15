@@ -38,7 +38,7 @@
 .project-card ul li::marker {
     color: #a993fe;
 }
-.project-card.underline{
+.project-card .underline{
     border-bottom: 1.5px solid #6751b9;
     margin: 0.7rem 0;
 }
