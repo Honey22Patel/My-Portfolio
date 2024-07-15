@@ -1,0 +1,207 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.hero-container::after,.hero-container::before{
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+.hero-container::after{
+    top: -3rem;
+    left: -5rem;
+}
+.hero-container::before{
+    bottom: -1rem;
+    right: 0rem;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-content h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.hero-content p{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.hero-img{
+    flex: 1;
+    margin-top: 5rem;
+    max-width: 30%;
+}
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+.hero-buttons{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.hero-buttons .hero-icons{
+    display: flex;
+    gap: 1rem;
+}
+.hero-buttons .custom-style {
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    color: #fff;
+    /* border: solid 0.05rem #a993fe; */
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+}
+.download-btn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.download-btn:hover, .menu-btn:hover, .hero-buttons .custom-style:hover{
+    color: #a993fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+@media (max-width: 1252px){
+    .hero-content h2{
+        font-size: 2.9rem;
+        line-height: 4rem;
+    }
+    .hero-content p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .hero-img{
+        max-width: 29%;
+    }
+}
+@media (max-width: 1025px){
+    .hero-content h2{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .hero-content p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .hero-img{
+        max-width: 30%;
+    }
+}
+@media (max-width: 980px){
+    .hero-content h2{
+        font-size: 2.6rem;
+        line-height: 4rem;
+    }
+    .hero-content p{
+        font-size: 0.7rem;
+        line-height: 1.6rem;
+    }
+    .hero-img{
+        max-width: 31%;
+    }
+}
+@media (max-width: 893px){
+    .hero-content h2{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .hero-content p{
+        font-size: 0.6rem;
+        line-height: 1.4rem;
+    }
+    .hero-img{
+        /* max-width: 32%; */
+    }
+}
+
+@media (max-width: 769px){
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content h2, .hero-content p{
+        width: auto;
+        text-align: center;
+    }
+    .hero-content h2{
+        margin-top: 3rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .hero-content p{
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    } 
+    .hero-img{
+        max-width: 50%;
+    }
+    .hero-img img{
+        margin-top: -1rem;
+    }
+    .hero-buttons{
+        justify-content: center;
+    }
+}
+@media (max-width: 431px){
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content h2, .hero-content p{
+        width: auto;
+        text-align: center;
+    }
+    .hero-container::after,.hero-container::before{
+        content: "";
+        width: 18rem;
+        height: 18rem;
+    }
+    .hero-container::after{
+        top: 0rem;
+        left: 0rem;
+        filter: blur(180px);
+    }
+    .hero-container::before{
+        bottom: -2rem;
+        right: 1rem;
+        filter: blur(150px);
+    }
+    .hero-content h2{
+        margin-top: 3rem;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+    }
+    .hero-content p{
+        font-size: 0.7rem;
+        margin-bottom: 0rem;
+    } 
+    .hero-img{
+        max-width: 70%;
+        /* margin-top: 3rem; */
+    }
+    .hero-buttons{
+       flex-direction: column;
+    }
+}
+@media (max-width: 376px){
+    .hero-img img{
+        margin-top: -2rem;
+    }
+}
