@@ -10,7 +10,7 @@ const EducationInfo = () => {
               </div>
               <div className="item-place">Vishwakarma Government Engineering College, Ahmedabad, Gujarat</div>
               <div className="item-info">
-              I am a final year student in the Information Technology field at Vishwakarma Government Engineering College. In my most recent semester, I have achieved 8.78 CGPA till previous semester.
+              I am a final year student in the Information Technology field at Vishwakarma Government Engineering College.My current CGPA score is 9.17/10.
               </div>
           </div>
           <div className="item-header" style={{marginTop:'1rem'}}>DIPLOMA</div>
@@ -20,7 +20,7 @@ const EducationInfo = () => {
               </div>
               <div className="item-place">Government Polytechnic For Girls, Ahmedabad, Gujarat</div>
               <div className="item-info">
-              I completed 3 years diploma course in IT field after my 10th standard (SSC) with 9.91 CGPA.
+              I completed 3 years diploma course in IT field after my 10th standard (SSC) with 9.91/10 CGPA.
               </div>
           </div>
           
