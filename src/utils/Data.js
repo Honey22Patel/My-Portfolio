@@ -3,12 +3,12 @@ export const SKILLS = [
         title: "Frontend",
         icon: "./assets/images/frontend-icon.png",
         skills: [
-            { skill: "HTML5", percentage: "80%" },
-            { skill: "CSS3", percentage: "90%" },
-            { skill: "JavaScript", percentage: "65%" },
-            { skill: "Bootstrap", percentage: "85%" },
+            { skill: "HTML5", percentage: "75%" },
+            { skill: "CSS3", percentage: "70%" },
+            { skill: "JavaScript", percentage: "55%" },
+            { skill: "Bootstrap", percentage: "75%" },
             { skill: "Tailwind", percentage: "50%" },
-            { skill: "React.js", percentage: "60%" },
+            { skill: "React.js", percentage: "50%" },
         ],
     },
     {
@@ -25,7 +25,7 @@ export const SKILLS = [
         skills: [
             { skill: "Git & GitHub", percentage: "55%" },
             { skill: "Visual Studio Code", percentage: "75%" },
-            { skill: "Responsive Design", percentage: "90%" },
+            { skill: "Responsive Design", percentage: "80%" },
         ],
     },
     {
@@ -33,7 +33,7 @@ export const SKILLS = [
         icon: "./assets/images/soft-skills-icon.png",
         skills: [
             { skill: "Power Point, MS Word", percentage: "60%" },
-            { skill: "Team Work", percentage: "85%" },
+            { skill: "Team Work", percentage: "80%" },
             { skill: "Active listening", percentage: "75%" },
             { skill: "Internet browsing", percentage: "85%" },
             { skill: "Time Managment", percentage: "80%" },
@@ -45,33 +45,21 @@ export const SKILLS = [
 export const PROJECTS = [
     {
         title: "My Portfolio",
-        tech: "HTML| CSS | ReactJs | FontAwnsome",
+        tech: "HTML | CSS | ReactJs",
         description: "This is my Personal Portfolio which implemented some of the basic and crucial concepts of ReactJs such as Components, Props and Hooks. I have made this site fully responsive and user-friendly :)",
-        url: "https://github.com/Honey22Patel/Demo-CSS-Animation-Page",
+        url: "https://github.com/Honey22Patel/My-Portfolio/tree/main",
     },
     {
-        title: "My Portfolio2",
-        tech: "HTML, CSS, ReactJs, FontAwnsome",
-        description: "This is my Personal Portfolio which implemented some of the basic and crucial concepts of ReactJs such as Components, Props and Hooks. I have made this site fully responsive and user-friendly :)",
-        url: "https://github.com/Honey22Patel/Demo-CSS-Animation-Page",
-    },
-    {
-        title: "My Portfolio3",
-        tech: "HTML, CSS, ReactJs, FontAwnsome",
-        description: "This is my Personal Portfolio which implemented some of the basic and crucial concepts of ReactJs such as Components, Props and Hooks. I have made this site fully responsive and user-friendly :)",
-        url: "https://github.com/Honey22Patel/Demo-CSS-Animation-Page",
-    },
-    {
-        title: "My Portfolio4",
-        tech: "HTML, CSS, ReactJs, FontAwnsome",
-        description: "This is my Personal Portfolio which implemented some of the basic and crucial concepts of ReactJs such as Components, Props and Hooks. I have made this site fully responsive and user-friendly :)",
-        url: "https://github.com/Honey22Patel/Demo-CSS-Animation-Page",
+        title: "Music Player with API Integration",
+        tech: "HTML | CSS | ReactJs | React-Bootstrap",
+        description: "I developed a dynamic music player app using React.js. Fetches data from a music API which allows users to search and play their favorite tracks.",
+        url: "https://github.com/Honey22Patel/Music-Player-with-API-Integration",
     },
 ];
 
 export const CERTI = [
     {
-        url: 'https://drive.google.com/file/d/13a3aOPVJHpqEgBe8SN-O4Ph-_fghT_k6/view?usp=drive_link',
+        url: '',
         img: './assets/images/certi/ssip.png',
         title: 'New India Vibrant Hackthon - 2023',
         description: 'Recognized for outstanding innovation in the Smart Education sector, securing 1st Prize at the New India Vibrant Hackathon 2023  state-level hackathon, under the guidance of Prof. Jashvant R. Dave.',
