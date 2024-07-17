@@ -3,7 +3,7 @@ import "./Hero.css";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
-  const pdfFilePath = process.env.PUBLIC_URL + "./assets/HoneyPatel_Resume.pdf";
+  const pdfFilePath = "https://drive.google.com/file/d/16nPyEUL1Fpmz1bEL6TyOZmmM1SbfrE08/view?usp=drive_link";
 
   const handleDownload = () => {
     window.open(pdfFilePath, "_blank");
