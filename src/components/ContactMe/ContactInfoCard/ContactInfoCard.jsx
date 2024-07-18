@@ -10,7 +10,7 @@ const ContactInfoCard = ({ icon, size, text, tag }) => {
         <div className="icon">
           <FontAwesomeIcon icon={faEnvelope} size="lg" />
         </div>
-          <a href="">honeypatel22dec@gmail.com</a>
+          <a href="mailto: honeypatel22dec@gmail.com">honeypatel22dec@gmail.com</a>
       </div>
       <div className="contact-details-card">
         <div className="icon">

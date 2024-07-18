@@ -3,7 +3,7 @@ import './MobileNav.css';
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
-  const pdfFilePath = "https://drive.google.com/file/d/16nPyEUL1Fpmz1bEL6TyOZmmM1SbfrE08/view?usp=sharing";
+  const pdfFilePath = "https://drive.google.com/file/d/1btZPoeLm27On7IOtyXTm95Q8mbrNOb1I/view?usp=sharing";
   const handleDownload = () => {
     // const link = document.createElement('a');
     // link.href = process.env.PUBLIC_URL + './assets/Resume.pdf'; // Path to your PDF file
