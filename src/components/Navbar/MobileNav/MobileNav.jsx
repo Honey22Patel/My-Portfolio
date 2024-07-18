@@ -3,7 +3,7 @@ import './MobileNav.css';
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
-  const pdfFilePath = process.env.PUBLIC_URL + './assets/HoneyPatel_Resume.pdf';
+  const pdfFilePath = "https://drive.google.com/file/d/16nPyEUL1Fpmz1bEL6TyOZmmM1SbfrE08/view?usp=sharing";
   const handleDownload = () => {
     // const link = document.createElement('a');
     // link.href = process.env.PUBLIC_URL + './assets/Resume.pdf'; // Path to your PDF file
@@ -11,7 +11,7 @@ const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
     // document.body.appendChild(link);
     // link.click();
     // document.body.removeChild(link); 
-     window.open(pdfFilePath, '_blank');
+     window.open(pdfFilePath);
    
   };
   const [activeItem, setActiveItem] = useState("Home"); // Default active item
@@ -25,7 +25,7 @@ const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
       <>
           <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
               <div className="mobile-menu-container">
-                  <img src="./assets/images/logo.png" alt="" className="logo"/>
+                  <img src={`${process.env.PUBLIC_URL}/assets/images/logo.png`} alt="" className="logo"/>
 
                   <ul>
                     {/* <li className="menu-item">Home</li>
@@ -56,18 +56,18 @@ const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
                 }}>Skills</a>
             </li>
             <li>
+              <a className={`menu-item ${activeItem === "Credentials" ? "active" : ""}`}
+                  onClick={() => { 
+                    handleActiveOnClick("Credentials");
+                  onNavItemClick(sections.Credentials);
+                }}>Credentials</a>
+            </li>
+            <li>
               <a className={`menu-item ${activeItem === "Projects" ? "active" : ""}`}
                   onClick={() => { 
                     handleActiveOnClick("Projects");
                   onNavItemClick(sections.projects);
                 }}>Projects</a>
-            </li>
-            <li>
-              <a className={`menu-item ${activeItem === "Achivements" ? "active" : ""}`}
-                  onClick={() => { 
-                    handleActiveOnClick("Achivements");
-                  onNavItemClick(sections.achivements);
-                }}>Achivements</a>
             </li>
             <li>
               <a className={`menu-item ${activeItem === "Get in Touch" ? "active" : ""}`}

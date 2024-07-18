@@ -34,12 +34,12 @@
 .personal-info{
     flex: 1;
 }
-.heading{
+.personal-info .heading, .education-info .heading{
     display: inline-block;
     position: relative;
     font-size: 1rem;
 }
-.heading::before {
+.personal-info .heading::before, .education-info .heading::before{
     content: " ";
     width: 100%;
     height: 0.2rem;

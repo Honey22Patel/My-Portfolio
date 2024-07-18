@@ -1,6 +1,6 @@
 import React from 'react'
-import './AchiveCard.css'
-const AchiveCard = ({url, img, title, desc}) => {
+import './CredentialCard.css'
+const CredentialCard = ({url, img, title, desc}) => {
   const handleClick = (url) => {
       // console.log(url.url);
         window.open(url.url, '_blank');
@@ -17,4 +17,4 @@ const AchiveCard = ({url, img, title, desc}) => {
   )
 }
 
-export default AchiveCard
+export default CredentialCard

@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import MyProjects from "./components/MyProjects/MyProjects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
-import Achivements from "./components/Achivements/Achivements";
+import Credentials from "./components/Credentials/Credentials";
 
 const App = () => {
   const navbarHeight = 20; // Adjust based on your navbar height
@@ -16,7 +16,7 @@ const App = () => {
   const skillsRef = useRef(null);
   const projectsRef = useRef(null);
   const contactMeRef = useRef(null);
-  const achivementRef = useRef(null);
+  const credentialRef = useRef(null);
 
   const scrollToSection = (ref) => {
     window.scrollTo({
@@ -36,7 +36,7 @@ const App = () => {
           skills: skillsRef,
           projects: projectsRef,
           contactMe: contactMeRef,
-          achivements: achivementRef,
+          Credentials: credentialRef,
         }}
       />
       <div className="container">
@@ -49,11 +49,11 @@ const App = () => {
         <div ref={skillsRef}>
           <Skills />
         </div>
+        <div ref={credentialRef}>
+          <Credentials/>
+        </div>
         <div ref={projectsRef}>
           <MyProjects />
-        </div>
-        <div ref={achivementRef}>
-          <Achivements/>
         </div>
         <div ref={contactMeRef}>
           <ContactMe />

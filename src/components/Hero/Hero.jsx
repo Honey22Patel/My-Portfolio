@@ -3,10 +3,10 @@ import "./Hero.css";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
-  const pdfFilePath = "https://drive.google.com/file/d/16nPyEUL1Fpmz1bEL6TyOZmmM1SbfrE08/view?usp=drive_link";
+  const pdfFilePath = "https://drive.google.com/file/d/16nPyEUL1Fpmz1bEL6TyOZmmM1SbfrE08/view?usp=sharing";
 
   const handleDownload = () => {
-    window.open(pdfFilePath, "_blank");
+    window.open(pdfFilePath);
   };
 
   return (
@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-img">
-          <img src="./assets/images/Picture1.png" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/assets/images/Picture1.png`} alt="" />
         </div>
       </section>
     </>

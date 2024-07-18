@@ -1,6 +1,5 @@
 import React from "react";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import "./ContactMe.css";
 import ContactForm from "./ContactForm/ContactForm";
@@ -13,7 +12,7 @@ const ContactMe = () => {
           <ContactForm />
         </div>
         <div style={{ flex: 1 }}>
-            <ContactInfoCard
+            {/* <ContactInfoCard
               icon={faEnvelope}
               size="lg"
               text="honeypatel22dec@gmail.com"
@@ -37,7 +36,8 @@ const ContactMe = () => {
               size="xl"
               text="https://github.com/Honey22Patel?tab=repositories"
               tag="a"
-            />
+            /> */}
+          <ContactInfoCard />
         </div>
       </div>
     </section>

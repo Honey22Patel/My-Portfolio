@@ -23,7 +23,7 @@ const Navbar = ({ onNavItemClick, sections }) => {
         <div className="nav-content">
           <img
             className="logo"
-            src="./assets/images/logo.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/logo.png`}
             alt="Logo"
           />
 
@@ -49,18 +49,18 @@ const Navbar = ({ onNavItemClick, sections }) => {
                 }}>Skills</a>
             </li>
             <li>
+              <a className={`menu-item ${activeItem === "Credentials" ? "active" : ""}`}
+                  onClick={() => { 
+                    handleActiveOnClick("Credentials");
+                  onNavItemClick(sections.Credentials);
+                }}>Credentials</a>
+            </li>
+            <li>
               <a className={`menu-item ${activeItem === "Projects" ? "active" : ""}`}
                   onClick={() => { 
                     handleActiveOnClick("Projects");
                   onNavItemClick(sections.projects);
                 }}>Projects</a>
-            </li>
-            <li>
-              <a className={`menu-item ${activeItem === "Achivements" ? "active" : ""}`}
-                  onClick={() => { 
-                    handleActiveOnClick("Achivements");
-                  onNavItemClick(sections.achivements);
-                }}>Achivements</a>
             </li>
             <li>
               <a className={`menu-item ${activeItem === "Get in Touch" ? "active" : ""}`}
