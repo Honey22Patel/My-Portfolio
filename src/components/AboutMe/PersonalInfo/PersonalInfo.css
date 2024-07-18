@@ -22,6 +22,10 @@
 .info-icon>.icon-color{
     color:#a993fe;
 }
+.info-data a{
+    text-decoration: none;
+    color: #fff;
+}
 .extra-container{
     margin-left: 2.2rem;
 }

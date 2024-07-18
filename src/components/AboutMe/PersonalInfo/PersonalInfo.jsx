@@ -23,14 +23,14 @@ const PersonalInfo = () => {
         <div className="info-icon">
           <FontAwesomeIcon icon={faPhone} className="icon-color" />
         </div>
-        <div className="info-data">+91 9099602680</div>
+        <div className="info-data"><a href="tel: 9099602680">+91 9099602680</a></div>
       </div>
       <div className="info-content">
       
         <div className="info-icon">
           <FontAwesomeIcon icon={faEnvelope} className="icon-color" />
         </div>
-        <div className="info-data">honeypatel22dec@gmail.com</div>
+        <div className="info-data"><a href="mailto: honeypatel22dec@gmail.com">honeypatel22dec@gmail.com</a></div>
       </div>
     </section>
     <section className="extra-container">

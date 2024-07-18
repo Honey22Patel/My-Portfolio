@@ -8,25 +8,25 @@ const ContactInfoCard = ({ icon, size, text, tag }) => {
     <>
       <div className="contact-details-card">
         <div className="icon">
-          <FontAwesomeIcon icon={faEnvelope} size="lg" />
+        <a href="mailto: honeypatel22dec@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="lg" /></a>
         </div>
           <a href="mailto: honeypatel22dec@gmail.com">honeypatel22dec@gmail.com</a>
       </div>
       <div className="contact-details-card">
         <div className="icon">
-          <FontAwesomeIcon icon={faPhone} size="lg" />
+        <a href="tel: 9099602680"><FontAwesomeIcon icon={faPhone} size="lg" /></a>
         </div>
           <a href="tel: 9099602680">+91 9099602680</a>
       </div>
       <div className="contact-details-card">
         <div className="icon">
-          <FontAwesomeIcon icon={faLinkedin} size="xl" />
+        <a href="https://www.linkedin.com/in/honey-patel-795594231/"><FontAwesomeIcon icon={faLinkedin} size="xl" /></a>
         </div>
           <a href="https://www.linkedin.com/in/honey-patel-795594231/">View Profile</a>
       </div>
       <div className="contact-details-card">
         <div className="icon">
-          <FontAwesomeIcon icon={faGithub} size="xl" />
+        <a href="https://github.com/Honey22Patel?tab=repositories"><FontAwesomeIcon icon={faGithub} size="xl" /></a>
         </div>
           <a href="https://github.com/Honey22Patel?tab=repositories">View Profile</a>
       </div>
