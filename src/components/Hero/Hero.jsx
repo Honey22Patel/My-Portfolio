@@ -3,7 +3,7 @@ import "./Hero.css";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
-  const pdfFilePath = "https://drive.google.com/file/d/1btZPoeLm27On7IOtyXTm95Q8mbrNOb1I/view?usp=sharing";
+  const pdfFilePath = "https://drive.google.com/file/d/11SQ1p_jTFGZRIUE0cRmb3Yy1hozuojlE/view?usp=sharing";
   
   const handleDownload = () => {
     window.open(pdfFilePath);

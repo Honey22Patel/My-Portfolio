@@ -15,6 +15,7 @@ export const SKILLS = [
         title: "Backend",
         icon: `${process.env.PUBLIC_URL}/assets/images/backend-icon.png`,
         skills: [
+            { skill: "PHP", percentage: "50%" },
             { skill: "Node.js", percentage: "40%" },
             { skill: "Express. js", percentage: "35%" },
         ],
@@ -26,17 +27,18 @@ export const SKILLS = [
             { skill: "Git & GitHub", percentage: "55%" },
             { skill: "Visual Studio Code", percentage: "75%" },
             { skill: "Responsive Design", percentage: "80%" },
+            { skill: "Power Point, MS Word", percentage: "60%" },
         ],
     },
     {
         title: "Soft Skills",
         icon: `${process.env.PUBLIC_URL}/assets/images/soft-skills-icon.png`,
         skills: [
-            { skill: "Power Point, MS Word", percentage: "60%" },
             { skill: "Team Work", percentage: "80%" },
             { skill: "Active listening", percentage: "75%" },
             { skill: "Internet browsing", percentage: "85%" },
             { skill: "Time Managment", percentage: "80%" },
+            { skill: "Creativity", percentage: "50%" },
         ]
     },
 ];
@@ -50,6 +52,18 @@ export const PROJECTS = [
         url: "https://github.com/Honey22Patel/My-Portfolio/tree/main",
     },
     {
+        title: "Integration of News API",
+        tech: "HTML | CSS | ReactJs |  React-Bootstrap",
+        description: "Dynamic News API fetching demonstrating various hooks and understanding of how to display required json data out of huge amount of records",
+        url: "https://github.com/Honey22Patel/IntegratingNewsAPI",
+    },
+    {
+        title: "TO DO List",
+        tech: "HTML | CSS | ReactJs",
+        description: "A single-page To-Do list web application enabling users to efficiently manage tasks by adding items, marking them as complete with a strikethrough, and removing them as needed. Implemented functionality to prevent duplicate entries.",
+        url: "https://github.com/Honey22Patel/ToDoList",
+    },
+    {
         title: "Music Player with API Integration",
         tech: "HTML | CSS | ReactJs | React-Bootstrap",
         description: "I developed a dynamic music player app using React.js. Fetches data from a music API which allows users to search and play their favorite tracks.",
@@ -59,16 +73,12 @@ export const PROJECTS = [
 
 export const INTERNSHIP = [
     {
-        // url: 'https://drive.google.com/file/d/1ztBiuDcDfD65Au3Y20Ec0Miw3-UdKijw/view?usp=sharing',
-        // img: `${process.env.PUBLIC_URL}/assets/images/internship/infolabz.png`,
         title: 'Web Intern',
         location: 'Infolabz IT Services',
         duration: 'June 2021 to April 2022',
         description: 'This training program covers PHP for server-side scripting, MySQL for database management and frontend technologies including HTML, CSS, JavaScript, and Bootstrap.'
     },
     {
-        // url: 'https://drive.google.com/file/d/1Gw6AH659TN6swoxEXEq5DBS2oPzuUbKg/view?usp=sharing',
-        // img: `${process.env.PUBLIC_URL}/assets/images/internship/aom.jpg`,
         title: 'React Project Development',
         location: 'AOM Web Designer',
         duration: 'June 2024 to July 2024',
@@ -105,5 +115,17 @@ export const CERTI = [
         img: `${process.env.PUBLIC_URL}/assets/images/certi/google.png`,
         title: 'Introduction to Git and GitHub',
         description: "Completed 'Introduction to Git and Github' event, demonstrating basic understanding of Git workflow and GitHub platform.",
+    },
+    {
+        url: 'https://drive.google.com/file/d/1R03rcc9griHEZC4UaWV189EzBUQdq8Qn/view?usp=sharing',
+        img: `${process.env.PUBLIC_URL}/assets/images/certi/gpg.png`,
+        title: 'Academic Appriciation',
+        description: "Received a Certificate of Appreciation from the Department of Information Technology at Government Polytechnic for Girls, Ahmedabad, for outstanding performance in academics.",
+    },
+    {
+        url: 'https://drive.google.com/file/d/1RA1JNB_LObPWOXYOBlGLeGd4PUaARiNC/view?usp=sharing',
+        img: `${process.env.PUBLIC_URL}/assets/images/certi/kcmahindra.png`,
+        title: 'K C Mahindra Education Scholarship',
+        description: "Recipient of the Mahindra All India Talent Scholarship from K. C. Mahindra Education Trust, awarded for successfully completing a Diploma in Information Technology.",
     },
 ]

@@ -19,8 +19,8 @@ const EducationInfo = () => {
                   2019 - 2022
               </div>
               <div className="item-place">Government Polytechnic For Girls, Ahmedabad, Gujarat</div>
-              <div className="item-info">
-              I completed 3 years diploma course in IT field after my 10th standard (SSC) with 9.91/10 CGPA.
+        <div className="item-info">
+          After securing 95% in 10th standard(SSC), I have completed 3 years diploma course in IT field holding 9.91/10 CGPA along with Academic Appriciation.
               </div>
           </div>
           

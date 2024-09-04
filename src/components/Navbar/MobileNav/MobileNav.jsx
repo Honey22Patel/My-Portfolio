@@ -3,7 +3,7 @@ import './MobileNav.css';
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
-  const pdfFilePath = "https://drive.google.com/file/d/1btZPoeLm27On7IOtyXTm95Q8mbrNOb1I/view?usp=sharing";
+  const pdfFilePath = "https://drive.google.com/file/d/11SQ1p_jTFGZRIUE0cRmb3Yy1hozuojlE/view?usp=sharing";
   const handleDownload = () => {
     // const link = document.createElement('a');
     // link.href = process.env.PUBLIC_URL + './assets/Resume.pdf'; // Path to your PDF file
@@ -28,12 +28,6 @@ const MobileNav = ({ isOpen, toggleMenu, onNavItemClick, sections }) => {
                   <img src={`${process.env.PUBLIC_URL}/assets/images/logo.png`} alt="" className="logo"/>
 
                   <ul>
-                    {/* <li className="menu-item">Home</li>
-                    <li className="menu-item">About Me</li>
-                    <li className="menu-item">Skills</li>
-                    <li className="menu-item">Projects</li>
-                    <li className="menu-item">Achievements</li>
-                    <li className="menu-item">Get in Touch</li> */}
             
             <li>
               <a className={`menu-item ${activeItem === "Home" ? "active" : ""}`}
