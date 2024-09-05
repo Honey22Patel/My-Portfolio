@@ -15,8 +15,9 @@ const Hero = () => {
         <div className="hero-content">
           <h2>Hi There, Honey Here</h2>
           <p>
-            Passionate Frontend Developer Trnasforming ideas into seamless and
-            visually stunning solution and Data Analytics Enthusiast
+            {/* Passionate Frontend Developer Trnasforming ideas into seamless and
+            visually stunning solution and Data Analytics Enthusiast */}
+            Eager to contribute with a commitment to continuous learning, professional development and driving organizational growth.
           </p>
           <div className="hero-buttons">
             <button className="download-btn" onClick={handleDownload}>
