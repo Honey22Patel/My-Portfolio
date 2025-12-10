@@ -7,7 +7,7 @@ const Credentials = () => {
   return (
     <section className="achive-container">
       <h5>Credentials</h5>
-      <div className="heading1">Internships</div>
+      <div className="heading1">Experience</div>
       <div className="achive-content1">
         {INTERNSHIP.map((item, index) => {
           return (

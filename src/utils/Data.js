@@ -7,17 +7,19 @@ export const SKILLS = [
             { skill: "CSS3", percentage: "70%" },
             { skill: "JavaScript", percentage: "55%" },
             { skill: "Bootstrap", percentage: "75%" },
-            { skill: "Tailwind", percentage: "50%" },
-            { skill: "React.js", percentage: "50%" },
+            { skill: "Angular", percentage: "60%" },
+            { skill: "jQuery", percentage: "50%" },
+            // { skill: "Tailwind", percentage: "50%" },
+            { skill: "ReactJs", percentage: "20%" },
         ],
     },
     {
         title: "Backend",
         icon: `${process.env.PUBLIC_URL}/assets/images/backend-icon.png`,
         skills: [
-            { skill: "PHP", percentage: "50%" },
-            { skill: "Node.js", percentage: "40%" },
-            { skill: "Express. js", percentage: "35%" },
+            { skill: "PHP", percentage: "40%" },
+            { skill: "Node.js", percentage: "20%" },
+            // { skill: "Express. js", percentage: "20%" },
         ],
     },
     {
@@ -26,19 +28,19 @@ export const SKILLS = [
         skills: [
             { skill: "Git & GitHub", percentage: "55%" },
             { skill: "Visual Studio Code", percentage: "75%" },
-            { skill: "Responsive Design", percentage: "80%" },
-            { skill: "Power Point, MS Word", percentage: "60%" },
+            // { skill: "Responsive Design", percentage: "80%" },
+            { skill: "MS Office - Word,Excel,PowerPoint ", percentage: "60%" },
         ],
     },
     {
         title: "Soft Skills",
         icon: `${process.env.PUBLIC_URL}/assets/images/soft-skills-icon.png`,
         skills: [
-            { skill: "Team Work", percentage: "80%" },
             { skill: "Active listening", percentage: "75%" },
-            { skill: "Internet browsing", percentage: "85%" },
             { skill: "Time Managment", percentage: "80%" },
-            { skill: "Creativity", percentage: "50%" },
+            { skill: "Team Work", percentage: "80%" },
+            { skill: "Adaptibility", percentage: "50%" },
+            { skill: "Internet browsing", percentage: "85%" },
         ]
     },
 ];
@@ -52,6 +54,12 @@ export const PROJECTS = [
         url: "https://github.com/Honey22Patel/My-Portfolio/tree/main",
     },
     {
+        title: "QuizApp",
+        tech: "HTML | CSS | Bootstrap |  EJS",
+        description: "Worked as a frontend developer during a hackathon, using HTML, CSS, and Bootstrap to create a responsive and visually appealing user interface",
+        // url: "https://github.com/Honey22Patel/My-Portfolio/tree/main",
+    },
+    {
         title: "Integration of News API",
         tech: "HTML | CSS | ReactJs |  React-Bootstrap",
         description: "Dynamic News API fetching demonstrating various hooks and understanding of how to display required json data out of huge amount of records",
@@ -63,25 +71,31 @@ export const PROJECTS = [
         description: "A single-page To-Do list web application enabling users to efficiently manage tasks by adding items, marking them as complete with a strikethrough, and removing them as needed. Implemented functionality to prevent duplicate entries.",
         url: "https://github.com/Honey22Patel/ToDoList",
     },
-    {
-        title: "Music Player with API Integration",
-        tech: "HTML | CSS | ReactJs | React-Bootstrap",
-        description: "I developed a dynamic music player app using React.js. Fetches data from a music API which allows users to search and play their favorite tracks.",
-        url: "https://github.com/Honey22Patel/Music-Player-with-API-Integration",
-    },
+    // {
+    //     title: "Music Player with API Integration",
+    //     tech: "HTML | CSS | ReactJs | React-Bootstrap",
+    //     description: "I developed a dynamic music player app using React.js. Fetches data from a music API which allows users to search and play their favorite tracks.",
+    //     url: "https://github.com/Honey22Patel/Music-Player-with-API-Integration",
+    // },
 ];
 
 export const INTERNSHIP = [
     {
+        title: 'Frontend Developer',
+        location: 'Evision IT Solutions',
+        duration: 'Jan 2025 to Present',
+        description: 'Built responsive, cross-browser compatible user interfaces using Angular v16. Focused on reusable components and seamless API integration'
+    },
+    {
         title: 'Web Intern',
         location: 'Infolabz IT Services',
-        duration: 'June 2021 to April 2022',
+        duration: 'Jun 2021 to Apr 2022',
         description: 'This training program covers PHP for server-side scripting, MySQL for database management and frontend technologies including HTML, CSS, JavaScript, and Bootstrap.'
     },
     {
         title: 'React Project Development',
         location: 'AOM Web Designer',
-        duration: 'June 2024 to July 2024',
+        duration: 'Jun 2024 to Jul 2024',
         description: 'Hands - on Practical Knowledge on React basics such as Components, State management, Props, Integrating APIs and Responsive Interface.'
     },
 ];

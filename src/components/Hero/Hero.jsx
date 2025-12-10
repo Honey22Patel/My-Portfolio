@@ -3,7 +3,7 @@ import "./Hero.css";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hero = () => {
-  const pdfFilePath = "https://drive.google.com/file/d/11SQ1p_jTFGZRIUE0cRmb3Yy1hozuojlE/view?usp=sharing";
+  const pdfFilePath = "https://drive.google.com/file/d/13hWdNfdovb9BBCzl7Xqk_LiiF-5CmQcR/view?usp=sharing";
   
   const handleDownload = () => {
     window.open(pdfFilePath);
@@ -17,7 +17,8 @@ const Hero = () => {
           <p>
             {/* Passionate Frontend Developer Trnasforming ideas into seamless and
             visually stunning solution and Data Analytics Enthusiast */}
-            Eager to contribute with a commitment to continuous learning, professional development and driving organizational growth.
+            {/* Eager to contribute with a commitment to continuous learning, professional development and driving organizational growth. */}
+            Frontend Developer | Aspiring Full-Stack Developer
           </p>
           <div className="hero-buttons">
             <button className="download-btn" onClick={handleDownload}>

@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-    <div className="footer1">&copy; 2024  Honey Patel. All rights reserved.</div>
-        <div className='footer2'>Design inspired by @Time To Program</div>
+    <div className="footer1">&copy; 2025  Honey Patel. All rights reserved.</div>
+        {/* <div className='footer2'>Design inspired by @Time To Program</div> */}
         </div>
       </>
   )

@@ -10,7 +10,7 @@ const EducationInfo = () => {
               </div>
               <div className="item-place">Vishwakarma Government Engineering College, Ahmedabad, Gujarat</div>
               <div className="item-info">
-              I am a final year student in the Information Technology field at Vishwakarma Government Engineering College.My current CGPA score is 9.17/10.
+              I have completed my Bachelor of Engineering in Information Technology from Vishwakarma Government Engineering College with a CGPA of 8.96/10.
               </div>
           </div>
           <div className="item-header" style={{marginTop:'1rem'}}>DIPLOMA</div>
